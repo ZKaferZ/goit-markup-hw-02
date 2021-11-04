@@ -1,3 +1,11 @@
 .link-WebStudio {
-    color:black;
+    color:blue;
+    font-family: Raleway;
+    width: 700;
+    
+}
+.body-class-font {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Roboto, sans-serif;
 }
