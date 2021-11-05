@@ -1,8 +1,81 @@
-body{
-background-color: whitesmoke;
-color: tomato;
+/* :root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fbb;
+  --primary-white-color: #ffffff;
+} */
+
+.body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+/*logo*/
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.accent {
+    color: blue;
+}
+/* Site nav */
+.site-nav-list {
+color: black;
+font-family: Roboto, sans-serif;
+font-style: 500;
+font-size: 14px;
+line-height: 1.14;
+list-style: none;
+
+}
+.site-nav-link {
+color: black;
+font-family: Roboto, sans-serif;
+font-style: 500;
+font-size: 14px;
+line-height: 1.14;
+list-style: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: blue;
+}
+/* Hero */
+.hero {
+
+}
+.hero-title {
+    color: wheat;
+    font-family:Roboto, sans-serif;
+    font-style: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.hero-button-service {
+    color: black;
+    font-family:Roboto, sans-serif;
+    font-style: 700;
+    font-size: 16px;
+    line-height: 1.87;
 }
 
-.body-class-font {
+.hero-button-service:focus,
+.hero-button-service:hover {
+    color: blue;
+}
+/* Benefits */
+
+h1,h2,h3,h4,h4,h6 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+
 
 }
