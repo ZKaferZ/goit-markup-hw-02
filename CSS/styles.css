@@ -28,6 +28,7 @@ body{
 .link{
 	text-decoration: none;
 }
+}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -221,7 +222,6 @@ address{
 	font-style: normal;
     font-size: 14px;
    line-height: 1.71;
-
 }
 .footer .logo{
 	color: var(--accent-color);
@@ -246,3 +246,4 @@ address{
 .contacts-list .link:focus{
 	color: var(--accent-color);
 }
+
