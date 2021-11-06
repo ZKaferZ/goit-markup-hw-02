@@ -246,4 +246,10 @@ address{
 .contacts-list .link:focus{
 	color: var(--accent-color);
 }
-
+.contact-link-footer {
+    color: var(--primary-text-color);
+}
+.contact-link-footer:hover {
+  color: #FFFFFF;
+  text-decoration: none;}
+/* ,,,, */
